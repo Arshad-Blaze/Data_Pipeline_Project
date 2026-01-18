@@ -1,0 +1,16 @@
+Postgres (OLTP)
+        ↓
+Python Extract Job
+        ↓
+Raw Zone (Parquet snapshots)
+        ↓
+Staging (Cleaned)
+        ↓
+DuckDB Warehouse
+        ↓
+dbt Transformations
+        ↓
+analytics tables
+
+
+“I built the pipeline locally using DuckDB, which mirrors cloud warehouses conceptually.”

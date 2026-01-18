@@ -1,0 +1,2 @@
+cd dbt
+dbt run

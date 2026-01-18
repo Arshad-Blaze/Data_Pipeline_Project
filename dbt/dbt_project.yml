@@ -1,0 +1,12 @@
+name: "local_de_project"
+version: "1.0"
+profile: "local_de_project"
+
+models:
+  local_de_project:
+    staging:
+      materialized: view
+    dimensions:
+      materialized: table
+    facts:
+      materialized: table

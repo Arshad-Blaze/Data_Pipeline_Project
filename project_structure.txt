@@ -1,0 +1,22 @@
+project-root/
+│
+├── airflow/
+│ ├── dags/
+│ ├── logs/
+│ └── docker-compose.yml
+│
+├── data/
+│ ├── raw/
+│ └── staging/
+│
+├── etl/
+│ ├── extract_orders_from_postgres.py
+│ └── clean_and_stage_orders.py
+│
+├── dbt/
+│ ├── models/
+│ ├── tests/
+│ └── dbt_project.yml
+│
+└── warehouse/
+└── warehouse.duckdb

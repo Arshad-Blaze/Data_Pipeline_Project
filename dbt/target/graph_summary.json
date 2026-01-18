@@ -1,0 +1,1 @@
+{"_invocation_id": "10156026-7b34-4f96-996b-15f80a019201", "linked": {"0": {"name": "model.local_de_project.dim_customer", "type": "model"}, "1": {"name": "model.local_de_project.fact_orders", "type": "model"}, "2": {"name": "model.local_de_project.stg_orders", "type": "model"}}}
